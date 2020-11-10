@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/globe_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/globe_flag_circle"
+            android:background="@drawable/white" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/tv_country"
+                android:layout_weight="4"
+                android:textSize="14dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Country"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_totalcases"
+            android:layout_weight="5"
+            android:textSize="14dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Cases"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_totalRecovered"
+            android:layout_weight="5"
+            android:textSize="14dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Recovered"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_totalDeath"
+            android:layout_weight="5"
+            android:textSize="14dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Death"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
